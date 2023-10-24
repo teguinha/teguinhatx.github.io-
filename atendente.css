@@ -1,0 +1,63 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o contêiner principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Estilos para os títulos */
+h1 {
+    color: #333;
+}
+
+/* Estilos para a tabela de chamados pendentes */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Estilos para os links nas opções dos chamados */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para o link de logout */
+a.logout {
+    display: block;
+    margin-top: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/* Estilos para o link de logout ao passar o mouse */
+a.logout:hover {
+    color: #f00;
+}
